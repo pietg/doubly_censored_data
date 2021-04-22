@@ -1,5 +1,5 @@
 	library(Rcpp)
-	library(coarseDataTools)
+	#library(coarseDataTools)
 	sourceCpp("incubationIQM.cpp")
 	
 	## data set test_data.csv, consisting of 181 triples. 
@@ -26,10 +26,10 @@
 	## Lauer_data.txt is data file in the right format 
 	## for using the function dic.fit in coarseDataTools
 	
-	A<-read.table("Lauer_data.txt")
-	colnames(A) = c("EL","ER","SL","SR","type")
-	dic.fit(A,start.par2=10,par1.int=c(1,4),par2.int=c(1,12),dist="W")
-	dic.fit(A,dist="L")	
+	#A<-read.table("Lauer_data.txt")
+	#colnames(A) = c("EL","ER","SL","SR","type")
+	#dic.fit(A,start.par2=10,par1.int=c(1,4),par2.int=c(1,12),dist="W")
+	#dic.fit(A,dist="L")	
 	
 	## parameter estimates for Weibull density, coming from dic.fit
 	a1 <- 2.453

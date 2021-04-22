@@ -1,5 +1,5 @@
 	library(Rcpp)
-	library(coarseDataTools)
+	#library(coarseDataTools)
 	sourceCpp("incubationIQM.cpp")
 	
 	## data set test_data.csv, consisting of 500 triples. 
