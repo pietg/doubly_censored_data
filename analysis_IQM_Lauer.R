@@ -50,7 +50,7 @@
 	y2<-f2(x2);
 		
 	## blue curve is nonparametric density estimate, 
-	## black dotted curve the real incubation density 
+	## black dotted curve the log-normal density 
 	## red dashed curve is the Weibull estimate of the incubation density,
 	## computed by the R package coarseDataTools
 	
